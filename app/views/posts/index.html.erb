@@ -6,6 +6,7 @@
           Gabriel
         </div>
       </div>
+
       <div class="image center-block">
         <%= link_to (image_tag post.image.url(:medium), class:'img-responsive'), post_path(post) %>
       </div>
@@ -13,5 +14,7 @@
         <%= post.caption %>
       </p>
     </div>
+
+   
   <% end %>
 </div>

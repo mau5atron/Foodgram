@@ -15,12 +15,7 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
+
 
 
 body {
@@ -47,6 +42,8 @@ body {
 .navbar-container {
   width: 100%;
   margin: 0 auto;
+  z-index: 1000;
+	position: fixed;
 }
 
 .posts-wrapper {
@@ -90,7 +87,7 @@ body {
 }
 
 .form-wrapper {
-  width: 60%;
+  width: 100%;
   margin: 20px auto;
   background-color: #fff;
   padding: 40px;
@@ -107,4 +104,5 @@ body {
     float: right !important;
     margin-right: 15px;
 }
+
 
