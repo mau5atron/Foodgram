@@ -43,7 +43,7 @@ body {
   width: 100%;
   margin: 0 auto;
   z-index: 1000;
-	position: fixed;
+	position: static;
 }
 
 .posts-wrapper {
@@ -105,4 +105,32 @@ body {
     margin-right: 15px;
 }
 
+/*.fix_navbar {
+	z-index: 1000;
+	position: absolute;
+}*/
+
+
+/*
+Stacey
+
+st@gmail.com
+
+st
+~~~~~~~~~~~~~~~
+Lil Wayne
+
+lil@gmail
+
+lil
+
+John Cena
+
+ucantseeme@gmail.com
+
+cena
+
+
+
+*/
 
